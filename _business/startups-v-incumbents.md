@@ -709,3 +709,4 @@ sitemap: false
 
 ## 31 January 2025
 * Obviously release of DeepSeek R1 etc in the last few weeks.
+* Long podcast [transcript](https://www.chinatalk.media/p/deepseek-what-it-means-and-what-happens) from China Talk that is pretty good about DeepSeek
