@@ -335,3 +335,6 @@ vim.opt.relativenumber = true
 ## 1/25/2025
 * Vim / NeoVim plugin by [Georgi Gerganov](https://ggerganov.com), creator of llama.cpp, whisper.cpp, and many other projects. [HN thread](https://news.ycombinator.com/item?id=42806328), [legacy about page](https://github.com/ggml-org/llama.vim) which has helpful intro. [Latest llama.vim page](https://github.com/ggml-org/llama.vim)
 	* [December 2024 paper](https://arxiv.org/abs/2412.16589) explaining code completion, benchmarking Fill-In-the-Middle (FIM). FIM gathers context both before and after where the cursor is, in contrast to older methods that only have context of the stuff before the cursor (aka "left to right" prefix-only completion). 
+
+## 2/05/2025
+* vim browser links
