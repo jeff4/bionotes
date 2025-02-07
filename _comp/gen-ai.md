@@ -361,3 +361,12 @@ G
 * Antropic AI announces [Citations API](https://www.anthropic.com/news/introducing-citations-api). [HN thread](https://news.ycombinator.com/item?id=42807173) has some interesting comments about grounding prompts when looking for scientific/medical paper annotations, including some debate involving Simon Willison.
 * [Thoughts on Using AI Coding Assistant Devin for a Month](https://www.answer.ai/posts/2025-01-08-devin.html) and [HN thread](https://news.ycombinator.com/item?id=42734681)
 * Simon Willison's round up of [Things we learned about LLMs in 2024](https://simonwillison.net/2024/Dec/31/llms-in-2024/). Long, linked, thoughtful list. [HN thread](https://news.ycombinator.com/item?id=42560558)
+
+## 06 February 2025
+* Sebastian Raschka on recent 2024-2025 developments in [Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) and [HN thread](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms). Four strategies for building and improving reasoning models:
+	1. Inference-time scaling
+	1. Pure RL reinforcement learning
+	1. RL + Supervised Fine Tuning (SFT)
+	1. Distillation
+* Also has commentary on DeepSeek R1 in the same post.
+
