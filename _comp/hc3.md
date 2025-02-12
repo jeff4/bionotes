@@ -247,4 +247,4 @@ map (\x -> x + 1) [1,2,3]
 * Remember, Method 2 with the **where** clause means that function is *only* available within that the larger function it is embedded in. I got into trouble trying to use `f3_shorten` separately in GHCi because it doesn't mean anything outside of `f2_subStringsOfLength`.
 
 
-## 2/04
+## 2/05
