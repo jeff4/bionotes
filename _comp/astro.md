@@ -98,4 +98,9 @@ Here are the definitions for the specified items along with their equivalent dat
 * Still waiting for Sat Naing to update AstroPaper to fully support Astro v5.
 
 ## 1/21/2025
-* No update on [Issue #435](https://github.com/satnaing/astro-paper/issues/435)
+* Still no update on [Issue #435](https://github.com/satnaing/astro-paper/issues/435)
+
+***
+
+## 2/12/2025
+* Notes on JS program (with maybe python and haskell implementations) to auto-format new blog posts.
