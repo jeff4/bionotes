@@ -102,5 +102,5 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ***
 
-## 2/12/2025
+## 2/13/2025
 * Notes on JS program (with maybe python and haskell implementations) to auto-format new blog posts.
