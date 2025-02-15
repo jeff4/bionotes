@@ -44,7 +44,7 @@ permalink: /zhongwen/
 1. **清** - qīng cháo (**Qing** / Manchu Dynasty, 267 years to 1911) 
 #### 朝 - cháo (dynasty). See [this link](https://china.lu/en/dynasties-chronologie-23) for dates etc.
 
-## 5/10 - 8/03
+## 5/10/2023 - 8/03/2023
 1. 繼承之戰 [继承之战] — jì chéng zhī zhàn. Chinese version of title for *HBO Succession*. Literal: "The Battle for Inheritance".
 1. 個 [个] - gè (measure word)
 1. 螞蟻 [蚂蚁] - mǎ yǐ (ant)
@@ -67,7 +67,7 @@ permalink: /zhongwen/
 1. 阿媽 [阿妈] - ā mā (grandmother. In "Taiwan and southeastern China where the Minnan language is spoken, refers to *paternal grandmother*, father's mom.") See also L19.
 1. 鹽 [盐] - yán (salt) see also Crouching Tiger lunch on ch-food page.
 
-## 8/05 - 9/10
+## 8/05/2023 - 9/10/2023
 1. 怡情黎 - yí qíng lí (happy, affectionate, *Li* ethnic group in Hainan). See LRB.
 1. 高原 -  gāo yuán (*noun* plateau, highland). See LRB.
 1. 方舟 - fāng zhōu (Noah's Ark; *literary 2 boats sailing side-by-side.) LRB
@@ -83,7 +83,7 @@ permalink: /zhongwen/
 1. 太陽 [太阳] - tài yáng (sun, sunshine)
 1. 先生 - xiān sheng (mister)
 
-## 9/10 - 10/15
+## 9/10/2023 - 10/15/2023
 ### Language Log arguments about Chinese characters on Language Log
 * Various 2016 links from Language Log about Chinese characters versus pinyin
 	* [First LL article on topic?](https://languagelog.ldc.upenn.edu/nll/?p=25776)
@@ -784,4 +784,15 @@ Go to [this page](/ch-food/)
 1. 最好 - zuì hǎo (it would be best)
 1. 推 - tuī (to push; to shove)
 1. 牆⧸墻 [墙] - qiáng (wall). 人牆- rén qiáng (human wall).
+1. 
+1. 
 
+### Lesson 32
+### Lesson 33
+### Lesson 34
+### Lesson 35
+### Lesson 36
+### Lesson 37
+### Lesson 38
+### Lesson 39
+### Lesson 40
