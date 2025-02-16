@@ -1,6 +1,6 @@
 ---
 title: Chinese Notes
-permalink: /zhongwen/
+permalink: /zh1/
 ---
 
 ## 2023 Log
@@ -59,13 +59,13 @@ permalink: /zhongwen/
 1. 功夫 and *variant* 工夫 - gōng fu (multiple definitions, including free time and kung fu. See Pleco entry for 工夫)
 1. 別罵我 [別骂我] - bié mà wǒ (don't yell at me) from TikTok. See also 別 usage from L22.
 1. 嗑藥 [嗑药] - kè yào (to take drugs). See also L20. *yào* looks like *yuè* from 音樂 (music) from L18. 
-1. 騙 [骗] - piàn (to fool, to trick). From CH. Similar to 乾扁牛/羊 from ch-food
+1. 騙 [骗] - piàn (to fool, to trick). From CH. Similar to 乾扁牛/羊 from zh2
 1.  [王小川 *Wáng Xiǎochuān*](https://en.wikipedia.org/wiki/Wang_Xiaochuan) founded the search engine [Sogou](https://en.wikipedia.org/wiki/Sogou) which is now a subsidiary of Tencent. Literal translation of Sogou is 'search dog' aka 搜狗 *sōu gǒu*.
 1. 6/30 - See notes on [丁丁 (Tin Tin)](/tt-blue-lotus/)
 1. 戰略 [战略] - zhàn lüè (strategy) as in business strategy or 八八戰略 bā bā zhàn lüè planned for Zhe Jiang province. See also in 走路 *road* from L20.
 1. 台灣 [台湾] - Táiwān
 1. 阿媽 [阿妈] - ā mā (grandmother. In "Taiwan and southeastern China where the Minnan language is spoken, refers to *paternal grandmother*, father's mom.") See also L19.
-1. 鹽 [盐] - yán (salt) see also Crouching Tiger lunch on ch-food page.
+1. 鹽 [盐] - yán (salt) see also Crouching Tiger lunch on zh2 page.
 
 ## 8/05/2023 - 9/10/2023
 1. 怡情黎 - yí qíng lí (happy, affectionate, *Li* ethnic group in Hainan). See LRB.
@@ -100,9 +100,10 @@ permalink: /zhongwen/
 * 8/10/2023 -- Reran 6c.py in proj-3 and added new undesired characters from output.txt to list of punctuation to be excluded.
 	* input.txt = 990 lines 
 	* output.txt = 779 unique characters after deleting undesired Latin characters, puncutation, etc. using python script.
+* 2/15/2025 -- old scripts etc. are stored in `~/Dropbox/0-tues`. Might refer to old filenames `zhongwen.md` and `ch-food.md`.
 
 ## Food
-Go to [this page](/ch-food/)
+Go to [this page](/zh2/)
 
 ## Harvard Mandarin Textbook
 ### Lesson 1
