@@ -1,6 +1,6 @@
 ---
 title: Chinese Food Notes
-permalink: /ch-food/
+permalink: /zh2/
 ---
 
 ## Food
