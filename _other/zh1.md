@@ -797,3 +797,8 @@ Go to [this page](/zh2/)
 ### Lesson 38
 ### Lesson 39
 ### Lesson 40
+
+***
+
+## February, 2025
+* Back at it. 2/14, refreshed through chapter 5
