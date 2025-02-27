@@ -710,3 +710,6 @@ sitemap: false
 ## 31 January 2025
 * Obviously release of DeepSeek R1 etc in the last few weeks.
 * Long podcast [transcript](https://www.chinatalk.media/p/deepseek-what-it-means-and-what-happens) from China Talk that is pretty good about DeepSeek
+
+## 27 February 2025
+* Co-founders [WorkHelix](https://www.workhelix.com/) are Erik Brynjolfsson (Stanford), Andrew McAfee (MIT), and CEO James Milin. Using Brynjolfsson and McAfee's research to build hybrid software/consulting company to show companies how to deploy AI, what subcomponents of tasks and jobs can actually be automated. [TC article](https://techcrunch.com/2025/02/27/workhelix-taps-years-of-research-to-help-enterprises-figure-out-where-to-apply-ai/)
