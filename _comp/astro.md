@@ -129,7 +129,8 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ### Steps
 1. Update/upgrade homebrew to make sure we are on the latest
-1. Use homebrew to install pnpm with this command
+1. Use homebrew to install pnpm with this command `brew install pnpm`
+	* per `pnpm --version`, we are running version `10.6.2`
 1. Create new directory locally in `~/demo_files/`, **not** in Dropbox. Let's call it a1. (Will eventually delete a3 and a4).
 1. Within `~/a1-arm/`, run **pnpm install** to install dependencies
 1. Then in same home directory, run **pnpm create astro@latest --template satnaing/astro-paper** 
