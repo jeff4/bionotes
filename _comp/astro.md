@@ -109,3 +109,22 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ## 3/11/2025
 * OK, Sat Naing finally pushed updates for AstroPaper 5, which includes support for Astro v5 and Tailwind v4 out of the box.
+* Sat's [blog post on AstroPaper 5](https://astro-paper.pages.dev/posts/astro-paper-v5/).
+* General notes:
+	1. Have to install new package manager [pnpm](https://github.com/pnpm/pnpm). Can read this [blog post](https://pnpm.io/blog/2020/05/27/flat-node-modules-is-not-the-only-way) for more on pnpm.
+
+* Instructions from main [AstroPaper GitHub page](https://github.com/satnaing/astro-paper?tab=readme-ov-file#-running-locally)
+#### pnpm command
+`pnpm create astro@latest --template satnaing/astro-paper`
+
+#### npm command
+`npm create astro@latest -- --template satnaing/astro-paper`
+
+***
+
+### Steps
+1. Use homebrew to install pnpm with this command
+1. Create new directory locally in `~/demo_files/`, **not** in Dropbox. Let's call it a1. (Will eventually delete a3 and a4).
+1. Within `~/a1-arm/`, run **pnpm install** to install dependencies
+1. Then in same home directory, run **pnpm create astro@latest --template satnaing/astro-paper** 
+
