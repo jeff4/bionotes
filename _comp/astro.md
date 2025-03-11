@@ -112,6 +112,13 @@ Here are the definitions for the specified items along with their equivalent dat
 * Sat's [blog post on AstroPaper 5](https://astro-paper.pages.dev/posts/astro-paper-v5/).
 * See also [how to configure blog posts](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/) and [how to configure sitewide variables and visual theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/). Both posts updated March 8, 2025.
 
+
+## Machine checklist
+* champ-1524 has everything up to and including updated .bash_profile
+    * next, create new github repo
+    * next, pull from new github repo to minipro23
+* minipro23 has everything up to and excluding `pnpm create astro@latest --template satnaing/astro-paper`. And in fact, we won't use that because we will populate by downloading from github
+
 ## General notes:
 * Have to install new package manager [pnpm](https://github.com/pnpm/pnpm). Can read this [blog post](https://pnpm.io/blog/2020/05/27/flat-node-modules-is-not-the-only-way) for more on pnpm.
 * Instructions from main [AstroPaper GitHub page](https://github.com/satnaing/astro-paper?tab=readme-ov-file#-running-locally)
@@ -127,13 +134,18 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ***
 
-### Steps
+### I. Preliminary Steps
 1. Update/upgrade homebrew to make sure we are on the latest
 1. Use homebrew to install pnpm with this command `brew install pnpm`
 	* per `pnpm --version`, we are running version `10.6.2`
-1. Create new directory locally in `~/demo_files/`, **not** in Dropbox. Let's call it a1. (Will eventually delete a3 and a4).
-1. Within `~/a1-arm/`, run **pnpm install** to install dependencies
-1. Then in same home directory, run **pnpm create astro@latest --template satnaing/astro-paper** 
+1. Create new directory locally in `~/demo_files/`, **not** in Dropbox. Let's call it `a1.-arm` (Will eventually delete a3 and a4).
+
+
+### II. Install Astro
+1. Run **pnpm create astro@latest --template satnaing/astro-paper** 
+	* Make sure when it asks you where to create home directory, using `/.` to load it all into current directory.
+	* Enable TypeScript (y)
+	* Allow installer to install dependencies
 1. `pnpm run dev` won't work yet. You need to either:
 	* install astro using `pnpm add astro` OR
 	* invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
