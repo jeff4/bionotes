@@ -102,5 +102,10 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ***
 
-## 2/13/2025
+## 2/12/2025
 * Notes on JS program (with maybe python and haskell implementations) to auto-format new blog posts.
+
+***
+
+## 3/11/2025
+* OK, Sat Naing finally pushed updates for AstroPaper 5, which includes support for Astro v5 and Tailwind v4 out of the box.
