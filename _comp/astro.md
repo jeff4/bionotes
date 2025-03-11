@@ -122,9 +122,13 @@ Here are the definitions for the specified items along with their equivalent dat
 #### npm command
 `npm create astro@latest -- --template satnaing/astro-paper`
 
+## grep command within vim to update from cd4 shortcutrs to cd1 shortcuts (and more importantly, switch from Dropbox to local directory)
+* `:24,36s~jeffh\/Dropbox\/proj-4\/a4-paper-intel~jeffh/demo_files/a1-arm/~gc`
+
 ***
 
 ### Steps
+1. Update/upgrade homebrew to make sure we are on the latest
 1. Use homebrew to install pnpm with this command
 1. Create new directory locally in `~/demo_files/`, **not** in Dropbox. Let's call it a1. (Will eventually delete a3 and a4).
 1. Within `~/a1-arm/`, run **pnpm install** to install dependencies
