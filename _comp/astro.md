@@ -175,7 +175,7 @@ Here are the definitions for the specified items along with their equivalent dat
 1. If your first push using `git push -u origin main` is rejected, that is probably because there is residue like an auto-generated README etc.
 	* In that case, force all changes to the remote github using `git push -f origin main`
 
-#### IV. Netlify steps
+### IV. Netlify steps
 1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
 1. Of the three options available at Netlify, I chose [option 1](https://docs.netlify.com/welcome/add-new-site/#import-from-an-existing-repository), to deploy a site based on an existing git repository.
 
