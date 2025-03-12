@@ -151,5 +151,5 @@ Here are the definitions for the specified items along with their equivalent dat
 	* invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
 	* Note I chose first option and it's working now
 1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
-1. Create a new repo at GitHub
+1. Create a new repo at GitHu
 1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
