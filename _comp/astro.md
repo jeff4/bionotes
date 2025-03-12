@@ -151,12 +151,12 @@ Here are the definitions for the specified items along with their equivalent dat
 1. `pnpm run dev` won't work yet. You need to either:
 	1. **Option 1:** install astro using `pnpm add astro` OR
 	1. **Option 2:** invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
-	* Notes:
-		* I chose option 1 and it's working now
+	1. Notes:
+		* I chose **Option 1** and it's working now
 		* On day 2, after completely deleting the `/a1-arm` directory, i did *not* need to install astro. I think this means that the astro install only has to happen once per machine?
 1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
 
-#### GitHub steps
+### III. GitHub steps
 1. Verify that i have an SSH connection to github with these [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection). Just need to use terminal to type `ssh -T git@github.com`. And reply should be `Hi xxxx! You've successfully authenticated, but GitHub does not provide shell access.`
 1. Modify `.gitignore` file so that it ignores `.DS_Store`, `*.swp` files and other temporary vim files. Specifically, type in:
 ```
@@ -164,11 +164,20 @@ Here are the definitions for the specified items along with their equivalent dat
 *.swp
 *.swo
 ```
+1. Create a new repo at GitHub. Just go to web interface using [these instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
+	* Do *NOT* create a readme or .gitignore file because they were already created on local system
+	* Initiallly chose private visibility
+	* Note, see also dialogue I had with Claude AI on 3/12/2025 for github instructions.
+1. After repository is created, click green **Code** button on upper left. Under "Clone", it will have https, ssh, and GitHub CLI options. Choose `ssh` and copy that string, e.g, `git@github.com:jeff4/a1.git`.
+1. Navigate to local directory, e.g, ~/demo-files/a1-arm`. 
+1. Assuming SSH has been set up already, you can just type this single command to connect the local repo to the remote repo: `:git remote add origin git@github.com:jeff4/a1.git`
+1. To verify that the connection is good, type: `git remote -v`
+1. If your first push using `git push -u origin main` is rejected, that is probably because there is residue like an auto-generated README etc.
+	* In that case, force all changes to the remote github using `git push -f origin main`
 
-1. Create a new repo at GitHub
-
-#### Netlify steps
+#### IV. Netlify steps
 1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
+1. Of the three options available at Netlify, I chose [option 1](https://docs.netlify.com/welcome/add-new-site/#import-from-an-existing-repository), to deploy a site based on an existing git repository.
 
 
 ***
