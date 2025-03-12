@@ -1023,4 +1023,11 @@ AttributeError: st.session_state has no attribute "show_results". Did you forget
 * Going to write a small JS program to auto-format new blogposts. See `/astro` page for more.
 
 ## 3/12/2025
-* Remember
+### grep notes recollected
+* 9/12/2023: `grep -r "[Bb]log" >out.txt" returns potential culprit `./src/admin/config.yml` 
+* 9/25/2023: `grep -r --exclude-dir=node_modules "Mingalaba"` to find where to delete Mingalaba on the homepage. It's located in the /src/pages/index.astro.
+* 9/27/2023: How to exclude subdirectories. e.g., to exclude directories like `node_modules` from grep, see [this answer](https://stackoverflow.com/questions/6565471/how-can-i-exclude-directories-from-grep-r]). Example: `grep -r --exclude-dir=node_modules "rss.xml"` looks for the string `rss.xml` recursively from this directory including subdirectories but ignores the `node_moduels` subdirectory. To exclude a file, use the `--exclude=filename`` flag.
+
+### find vs. grep from 10/06/2023
+* to search for the pattern of a filename in the current directory, use the `-f` flag for `ls` per [this documentation](https://www.ibm.com/docs/de/power6?topic=commands-ls-command) which suppresses the `-l` and other flags. So this is a good way of going `ls -f | grep uffizi`. Note that no wildcard `*` is needed when using this construct.
+
