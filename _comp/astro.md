@@ -157,7 +157,14 @@ Here are the definitions for the specified items along with their equivalent dat
 1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
 
 #### GitHub steps
-1. Modify `.gitignore` file so that it ignores `.DS_Store`, `*.swp` files and other temporary vim files.
+1. Verify that i have an SSH connection to github with these [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection). Just need to use terminal to type `ssh -T git@github.com`. And reply should be `Hi xxxx! You've successfully authenticated, but GitHub does not provide shell access.`
+1. Modify `.gitignore` file so that it ignores `.DS_Store`, `*.swp` files and other temporary vim files. Specifically, type in:
+```
+# Ignore temporary vim files
+*.swp
+*.swo
+```
+
 1. Create a new repo at GitHub
 
 #### Netlify steps
@@ -175,4 +182,4 @@ Here are the definitions for the specified items along with their equivalent dat
 > astro dev
 ```
 
-* Let's look at the instructions for setting this up with GitHub
+* The directory structure has changed as of AP5. Now, blog posts are located within `HOME/src/data/blog/`. Experimental deletion of blog posts works fine
