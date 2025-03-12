@@ -1011,6 +1011,8 @@ AttributeError: st.session_state has no attribute "show_results". Did you forget
 ## 12/30/2024
 * [Beginner article on SQLite](https://avi.im/blag/2024/sqlite-facts/) with history, overview, and significance. [HN thread](https://news.ycombinator.com/item?id=42549807) and [PDF of SQLite: Past, Present, Future](https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf) by Gaffney, D. Richard Hipp (aka *DRH* co-creator), et al. from 2022.
 
+***
+
 ## 1/10/2025
 * Three part blog mini-series on AI Tooling for Software Engineers in 2024: Reality Check at Gergely Orosz's *The Pragmatic Engineer* blog:
 	* [Part 1](https://newsletter.pragmaticengineer.com/p/ai-tooling-2024)
@@ -1021,6 +1023,8 @@ AttributeError: st.session_state has no attribute "show_results". Did you forget
     
 ## 2/13/2025
 * Going to write a small JS program to auto-format new blogposts. See `/astro` page for more.
+
+***
 
 ## 3/12/2025
 ### grep notes recollected
