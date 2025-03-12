@@ -158,8 +158,7 @@ Here are the definitions for the specified items along with their equivalent dat
 
 
 
-
 ***
 
 ## 3/12/2025
-* OK, minor updates to sw and docs in AstroPaper, *latest version is **5.0.1***. [5.0.1 release page is here](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1).
+* OK, minor updates to sw and docs in AstroPaper, latest version is [**5.0.1**](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1). Previous link goes to [5.0.1 release page](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1).
