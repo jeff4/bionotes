@@ -109,14 +109,16 @@ Here are the definitions for the specified items along with their equivalent dat
 
 # 3/11/2025
 * OK, Sat Naing finally pushed updates for AstroPaper 5, which includes support for Astro v5 and Tailwind v4 out of the box.
-* Sat's [blog post on AstroPaper 5](https://astro-paper.pages.dev/posts/astro-paper-v5/).
-* See also [how to configure blog posts](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/) and [how to configure sitewide variables and visual theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/). Both posts updated March 8, 2025.
-
+* **Sat's** [**main blog post on AstroPaper 5**](https://astro-paper.pages.dev/posts/astro-paper-v5/).
+* See also these general AstroPaper blog posts from the past that have all been updated for AP5 as of March 8, 2025:
+	1. [How to configure blog posts](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/) 
+	1. [How to configure sitewide variables and visual theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
 
 ## Machine checklist
 * champ-1524 has everything up to and including updated .bash_profile
-    * next, create new github repo
-    * next, pull from new github repo to minipro23
+1. delete and recreate `/a1/` directory
+1. next, create new github repo
+1. next, pull from new github repo to minipro23
 * minipro23 has everything up to and excluding `pnpm create astro@latest --template satnaing/astro-paper`. And in fact, we won't use that because we will populate by downloading from github
 
 ## General notes:
@@ -151,5 +153,13 @@ Here are the definitions for the specified items along with their equivalent dat
 	* invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
 	* Note I chose first option and it's working now
 1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
-1. Create a new repo at github.
+1. Create a new repo at GitHub
 1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
+
+
+
+
+***
+
+## 3/12/2025
+* OK, minor updates to sw and docs in AstroPaper, *latest version is **5.0.1***. [5.0.1 release page is here](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1).
