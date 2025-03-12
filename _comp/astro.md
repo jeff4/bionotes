@@ -178,6 +178,17 @@ Here are the definitions for the specified items along with their equivalent dat
 ### IV. Netlify steps
 1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
 1. Of the three options available at Netlify, I chose [option 1](https://docs.netlify.com/welcome/add-new-site/#import-from-an-existing-repository), to deploy a site based on an existing git repository.
+1. Very simple. Just need to give Netlify access to GitHub credentials, and it all goes live very easily. Only issue is that not all GH repos automatically show up in pick-list on the Netlify side. So you need to use the Netlify module within GH.com to select other repos and then at that point, `a1` comes up as available again. It's all live now
+
+
+### V. Manual changes
+1. Change about page
+1. remove all old AstroPaper posts
+1. Experiment with having a few of the old posts ported over
+1. Move all posts over
+1. Change the social links
+1. change DNS / custom domain over for `jeffhwang.me` over from `a4-intel` back to `a1`.
+1. set up local repo on minipro-23
 
 
 ***
