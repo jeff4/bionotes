@@ -149,9 +149,11 @@ Here are the definitions for the specified items along with their equivalent dat
 	* Enable TypeScript (y)
 	* Allow installer to install dependencies
 1. `pnpm run dev` won't work yet. You need to either:
-	* install astro using `pnpm add astro` OR
-	* invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
-	* Note I chose first option and it's working now
+	1. **Option 1:** install astro using `pnpm add astro` OR
+	1. **Option 2:** invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
+	* Notes:
+		* I chose option 1 and it's working now
+		* On day 2, after completely deleting the `/a1-arm` directory, i did *not* need to install astro. I think this means that the astro install only has to happen once per machine?
 1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
 1. Create a new repo at GitHub
 1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
@@ -162,3 +164,9 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ## 3/12/2025
 * OK, minor updates to sw and docs in AstroPaper, latest version is [**5.0.1**](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1). Previous link goes to [5.0.1 release page](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1).
+* After deleting previous version of `/a1-arm`, everything works as advertised, and when one runs `pnpm run dev`, console says:
+
+```
+> @5.0.1 dev ~/demo_files/a1-arm
+> astro dev
+```
