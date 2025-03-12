@@ -155,18 +155,24 @@ Here are the definitions for the specified items along with their equivalent dat
 		* I chose option 1 and it's working now
 		* On day 2, after completely deleting the `/a1-arm` directory, i did *not* need to install astro. I think this means that the astro install only has to happen once per machine?
 1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
-1. Create a new repo at GitHub
-1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
 
+#### GitHub steps
+1. Modify `.gitignore` file so that it ignores `.DS_Store`, `*.swp` files and other temporary vim files.
+1. Create a new repo at GitHub
+
+#### Netlify steps
+1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
 
 
 ***
 
 ## 3/12/2025
 * OK, minor updates to sw and docs in AstroPaper, latest version is [**5.0.1**](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1). Previous link goes to [5.0.1 release page](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1).
-* After deleting previous version of `/a1-arm`, everything works as advertised, and when one runs `pnpm run dev`, console says:
+* After deleting previous version of `/a1-arm`, everything works as advertised, including running version 5.0.1. When one runs `pnpm run dev`, console says:
 
 ```
 > @5.0.1 dev ~/demo_files/a1-arm
 > astro dev
 ```
+
+* Let's look at the instructions for setting this up with GitHub
