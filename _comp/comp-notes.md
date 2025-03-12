@@ -188,15 +188,15 @@ sitemap: false
 * 7/05 From February, 2023, ['A human just defeated an AI in Go. Here’s why that matters'](https://news.ycombinator.com/item?id=36590242), and [HN thread](https://news.ycombinator.com/item?id=36590242)
 * 7/06 Meta/FB/Instagram launched Threads today and here's an [HN article](https://news.ycombinator.com/item?id=36612835) about how the backend is built in Python 3.10
 
-## 7/14 - 7/16 awk resources
+## 7/14/2023 awk resources
 * Watched [intro video to awk by Gary Explains](https://youtu.be/jJ02kEETw70) (20 minutes long)
 * Ben Porter's [history and tutorial video for awk](https://youtu.be/E5aQxIdjT0M) (1 hour long) 
 * Bruce Barnett aka Grymoire also has an [Intro and Tutorial for Awk](https://grymoire.com/Unix/Awk.html).
 
-## 8/10
+## 8/10/2023
 * Been experimenting with alternative terminal emulators recently. First [Warp](www.warp.dev), then today [Alacritty](https://github.com/alacritty/alacritty). At some point, will refactor color themes available on [GitHub](https://github.com/alacritty/alacritty-theme)
 
-## 8/10 Regex notes
+## 8/10/2023 Regex notes
 * z\* matches zero to any z's found. z+ matches 1 to any z's found. z? optionally matches z's found.
 * Good [regex tutorial](https://www.regular-expressions.info/optional.html). Question mark is called a *quantifier*. This tutorial mostly focuses NFA aka "regex-directed" engines.
 * The 12 reserved charactes in regex like *?.()[]* are called special characters or **metacharacters**.
@@ -217,7 +217,7 @@ sitemap: false
 	* **\s** = whitespace characters. BUT "\s stands for “whitespace character”. Again, which characters this actually includes, depends on the regex flavor. In all flavors discussed in this tutorial, it includes [ \t\r\n\f]. That is: \s matches a space, a tab, a carriage return, a line feed, or a form feed. Most flavors also include the vertical tab, with Perl (prior to version 5.18) and PCRE (prior to version 8.34) being notable exceptions. In flavors that support Unicode, \s normally includes all characters from the Unicode “separator” category. Java and PCRE are exceptions once again. But JavaScript does match all Unicode whitespace with \s." A lot of inconsistency!
 	* you can negate any of the shortcuts above by use uppercase versions of the shortcuts. e.g., **\D** = anything *other than digits*; **\S** = anything *other than whitespace characters*.
 
-## 8/11 Regex notes
+## 8/11/2023 Regex notes
 * **\b** = very useful word border. Used in history file and detected The, These, There, Their, etc. See OneNote also from 8/11 under gsed notes.
 * From [The Dot section](https://www.regular-expressions.info/dot.html), scroll to the bottom two sections. \N never matches line breaks. But more importantly, use the dot sparingly. Probably better to use a negated characer class instead of the form \[^ these chars are negated\].
 * ^ and $ at the beginning and end of lines (obviously like in vim), are called [*String Anchors*](https://www.regular-expressions.info/anchors.html).
@@ -226,23 +226,23 @@ sitemap: false
 * Optional items are marked by the **? question mark** as described in [this section](https://www.regular-expressions.info/optional.html) which also explains the concept of greediness.
 * Star \(*) and Plus \(+) allow 0-infinite matches and and Plus allow 1-infinite matches. You can also specify how much reptition exactly with curly braces{}. See more at [this article](https://www.regular-expressions.info/repeat.html)
 
-## 8/12 Starship prompt notes
+## 8/12/2023 Starship prompt notes
 * Successfully installed Nerd Font and Starship. Basic check show that both are working.
 * However, not seeing how to modify the color schemes for input versus output yet.
 * Next steps. Try seeing results with zsh. And try on ARM.
 
-## 8/19 sed
+## 8/19/2023 sed
 * When using shuf to shuffle contents of /zhongwen, make sure to use the -o option to indicate output file, e.g., 
 		`shuf source.txt -o output.txt`
 
-## 8/22 
+## 8/22/2023 
 * [Short blog post](https://utcc.utoronto.ca/~cks/space/blog/unix/UnixTechnologyAndIdea) about Unix as a technology and as an idea. [HN thread](https://news.ycombinator.com/item?id=37205536)
 * Purchased Peter Krumins' (catonmat) e-book [*Sed One-Liners Explained*](https://catonmat.net/sed-book). See Box.
 
 ## 8/24
 * [HN thread on icons](https://news.ycombinator.com/item?id=37245530) referencing a Medium article.
 
-## 9/09 - Back to Eleventy. First deploy with Netlify 
+## 9/09/2023 - Back to Eleventy. First deploy with Netlify 
 * Got started with Netlify [using these instructions](https://docs.netlify.com/get-started/)
 * Node, npm, Netlify CLI are all installed and up to date. Now to choose an Eleventy Starter Kit.
 
@@ -266,7 +266,7 @@ sitemap: false
 * Note: content of header and other items are stored in `twelvety/src/_includes/`
 * Success! jeffhwang.me now points to jeffhwang.netlify.app
 
-## 9/10
+## 9/10/2023
 ### Next steps for Twelvety
 * draw diagram explaining tree structure of Twelvety
 * test uploading photos as assets
@@ -311,13 +311,13 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 	* Browse the [Readme](https://github.com/jeff4/twelvety/blob/master/README.md) for more info on how the directory and systems work. Note: a lot of this details functioning under the hood in the utils directory.
 	* Watch 11ty video series crash course from scratch youtube
 
-## 9/11
+## 9/11/2023
 ### Other Eleventy starters to try
 * I like [Yetty](https://github.com/ygoex/yetty) in all ways *except* the cross-out line that is used to denote which page you are currently on. See [demo site](https://jamstackthemes.dev/demo/theme/11ty-yetty/)
 * [Fernfolio](https://github.com/TylerMRoderick/fernfolio-11ty-template) is very minimalist but might do the job. [Demo site](https://fernfolio.netlify.app)
 * [TwentyTwentyOne](https://github.com/smolcodes/twentytwenyonetheme) has a typo in the github project name / URL. Only 5 stars in GH. [Demo site](https://jamstackthemes.dev/demo/theme/twentytwentyone/). still looks pretty good and embeds Math syntax js libraries.
 
-## 9/12
+## 9/12/2023
 * Got GH working consistently. Critical to use `git remote set-url origin git@github.com/USERNAME_AT_GITHUB:_repo-name_` to enforce authentication over SSH rather than HTTPS/user-password.
 
 ### Tree structure of Fernfolio
@@ -665,21 +665,21 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 	* 'The daylight saving time (=DST) does not affect UTC. DST simply modifies the ±[hh]:[mm]-part of the date-time: Europe’s CTE (=Central European Time) is usually described as UTC+1, but during the summer, when DST kicks in, it simply becomes UTC+2.'
 * Zulu time aka UTC does *not* change with daylight savings. So you have to modify during the summer, it's PDT (Pacific Daylight savings Time) which is UTC-7 hours. And in the winter time, we use PST (Pacific Standard Time) which is UTC-8 hours. See [Wiki article on Pacific time zone](https://en.wikipedia.org/wiki/Pacific_Time_Zone) 
 
-## 10/05
+## 10/05/2023
 * Continued episode editing
 * Idea from AK. LLM version of Moz's SEO [Whiteeboard Fridays](https://moz.com/blog/category/whiteboard-friday)
 * Created new blog entries on main jeffhwang.me site for each Stepfunction episodes. Updated tags and added "Featured Articles" section back to homepage.
 
-## 10/06
+## 10/06/2023
 * to search for the pattern of a filename in the current directory, use the `-f` flag for `ls` per [this documentation](https://www.ibm.com/docs/de/power6?topic=commands-ls-command) which suppresses the `-l` and other flags. So this is a good way of going `ls -f | grep uffizi`. Note that no wildcard `*` is needed when using this construct.
 
 
-## 10/06 - research on how to recreate a llama 7b - rlhf with chat using pure opensource
+## 10/06/2023 - research on how to recreate a llama 7b - rlhf with chat using pure opensource
 1. ask phind.com what are the basics needed to start training on hugging face and google colab
 1. note that this is the [HF model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML) we need to try to get working. It's llama-7b with rhlf chat 
 1. Found this good [Hugging Face course](https://huggingface.co/learn/nlp-course/chapter2/3?fw=pt) while researching HF AutoModels. Looks like it's useful to use it from soup to nuts. also allows usage of Google CoLab to follow along. Also created a link to [PEFT](https://huggingface.co/blog/peft) in the main [fine-tuning](/ft-and-rag) page. Also found [this documentation](https://huggingface.co/docs/trl/sft_trainer) on SFT aka Supervised Fine-Tuning Trainer class at HF. Less necessary,for now but to better understand when the code calls SFTTrainer.
 
-## 10/07
+## 10/07/2023
 * Set up new MBA 15-inch. migration assistant worked very well. list of post migration assistant adjustments:
 	* Backblaze
 	* BetterSnapTool
@@ -693,49 +693,49 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 * Lol, can't quite figure out rebase vs. fastforward and not quite working. might be a bit of a migration project down the line when i fully transition from intel to arm64!
 * Transfer relevant notes over to [git page](/git-notes/)
 
-## 10/09 Monday
+## 10/09/2023 Monday
 * Subscribed to GPT4 and Claude from Anthropic
 * Interesting [tweet](https://twitter.com/fchollet/status/1709242747293511939) and [substack post](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering) by F Chollet about prompt engineering and what's really happening
 * Good [tweet thread](https://twitter.com/kareem_carr/status/1710661717770879099) by Kareem Carr about errors in SBF bayesian statistical thinking. 
 * [Recent talk](https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/) by author of unix zine [Julia Evans](https://jvns.ca/about/). [HN thread](https://news.ycombinator.com/item?id=37791002)
 
-## 10/13
+## 10/13/2023
 * Interesting take on the [History and evolution of computers](http://whatarecomputersfor.net). Check out 7 chapters including: [Introduction](http://whatarecomputersfor.net), [A Machine for Math](http://whatarecomputersfor.net/a-machine-for-math/), [Versatile Information Machines](http://whatarecomputersfor.net/versatile-information-machines/), [Machines for Millions](http://whatarecomputersfor.net/machines-for-millions/), The World's Knowledge, Almost Everyone, and Computers Show Us Our World.
 * Good Mozilla Dev Network article on ['How web browsers work'](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
 
-## 10/17
+## 10/17/2023
 * 2019 article on [how to more deeply understand a piece of mathematics](https://cognitivemedium.com/srs-mathematics) from this [Hacker News thread](https://news.ycombinator.com/item?id=37920191)
 * Trying to understand GPU features and pricing better. Some good links:
 	* Tim Dettmers Jan 2023 article ['Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/) 
 	* Full stack deep learning pricing charts for [Cloud GPUs](https://fullstackdeeplearning.com/cloud-gpus/) and associated [May 2023 Hacker News thread](https://fullstackdeeplearning.com/cloud-gpus/)
 
-## 10/22
+## 10/22/2023
 * Back to editing a3. Modified `/src/layouts/BaseLayout.astro` and added `<meta name="robots" content="noindex, nofollow" />` per these [Google instructions](https://developers.google.com/search/docs/crawling-indexing/block-indexing). Should cascade to all pages created on the site.
 * To kill my RSS feed, I went to `/src/pages/rss.xml.js` and commented out the `export async function GET(context)` function.
 
-## 10/23
+## 10/23/2023
 * Simon Willison gave a talk and has a structured blog post about [embeddings](https://simonwillison.net/2023/Oct/23/embeddings/)
 
-## 10/29
+## 10/29/2023
 * Made some nice progress yesterday Saturday 10/28 at library on reading GBF Chapter 10 on RNNs, and skimming the two 2014 papers by Cho...Bengio on 'Paired Encoder-RNN plus Decoder-RNN'.
 * More progress digging into both Chapters 6 and 10 of the GBC Deep Learning book
 
-## 10/30
+## 10/30/2023
 * More progress reviewing and getting deper on Chapter 6 with some skimming of chapters 7 (Regularization) and Chapter 8 (Normalization)
 
-## 11/01
+## 11/01/2023
 * More progress
 * Reread Chap 9 history of CNNs and impact on deep learning at end of chapter
 * Review of Chapter 5 concepts on capacity, over and underfitting, etc.
 * more editing of SF ep 16
 
-## 11/02
+## 11/02/2023
 * Notes on [Hyung Won Chung's Open AI video](https://www.youtube.com/watch?v=dbo3kNKPaUA) at Seoul National University from October 5, 2023.
 	* Title "LLMs (in 2023)"
 	* Emergent Abilities of LLMs by Jason Wei, Yi Tay, et al (2023)
 	* Perspective of 'yet'
 
-## 11/06
+## 11/06/2023
 * Discussion with Justin about Openness Quotient, history tradition/transformation; lumpers vs splitters, etc.
 * Why is AI scary?
 	* B/c we don't know the future; exponential change is hard for humans, and it might even be discontinuous
@@ -750,13 +750,13 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 		* In contrast, the Jeff version of math/CS is like teaching story, plot, theme, character, setting etc. by asking them about Harry Potter, Arcane anime, or whatever they like.
 * Another topic: how disruptive or sustaining a new developement? Perhaps like fixed versus variable costs. Depending on time scale, most fixed costs are variable, and most variable costs are fixed.
 
-## 11/06 - 11/12
+## 11/06 - 11/12/2023
 * More progress on Chapter 5
 * hand drew equation versions of point estimation from p.119, section 5.4.1.
 * Got to Maximum Likelihood Estimation section
 * Clean up of GBC, Chapter 5. Began delving into Chap6 Deep FeedForward Networks
 
-## 11/13 - 11/19
+## 11/13 - 11/19/2023
 * ['In the bad old days we had Punchcards. How did people deal with that?'](https://blog.computationalcomplexity.org/2023/11/in-bad-old-days-we-had-punchcards-how.html) and [HN thread](https://news.ycombinator.com/item?id=38151299)
 * Wisdom from Computing's Past. [Article](https://lewiscampbell.tech/blog/231112.html) and [HN thread](https://news.ycombinator.com/item?id=38236607)
 * Completed GGC Chapter 5
@@ -765,7 +765,7 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 * 11/19 Began Chapter 6 on Feedforward Networks
 * 11/22 Began referring to AML book Learning from Data to cross reference it with Chapters 5, 6, 7 of GBC
 
-## 11/27
+## 11/27/2023
 * Decided to install [Alacritty Terminal emulator](https://alacritty.org) on my Mac mini M2 Pro. Did it by using DMG.
 	* Step 0: First, update brew: (1) update; (2) doctor; (3) upgrade.
 	* Step 1: Used homebrew to install prerequisite nerdfont using [these instructions](https://www.geekbits.io/how-to-install-nerd-fonts-on-mac/) and this command `brew tap homebrew/cask-fonts`.
@@ -789,14 +789,14 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 	* Current favorite on iMac-2018 Intel: **ShureTechMono Nerd Font**
 	* installed also on MacBook Air 2014
 
-## 12/02 - 12/18
+## 12/02 - 12/18/2023
 * Rebuilt a7 on Apple Silicon / ARM64. still having some trouble with js for mobile hamburger interactivity. maybe the naming of Hamburger as a component?
 * Almost finished! as of 11:55 pm Monday night, 12:30 am midnight early morning Tuesday Dec 5th, have blog fully up and running.
 * final step is to turn on light mode / dark mode
 * renamed Blog to Notes
 * verified it works from miniPro, and that connection to GH is working etc.
 
-## 12/19 - 12/26
+## 12/19 - 12/26/2023
 * Built new section for utopian/Scientific
 * Mostly done with Chap 6 FF. Need to start with Chap 7 on Regularization
 * refactored Eng s: us section
@@ -804,7 +804,7 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 * Began experimenting with having by-reference calls within a \*.md file to the frontmatter in that same Markdown document. More reading in [this Astro documentation](https://docs.astro.build/en/core-concepts/layouts/)
 * More on Pas Chapter 4 -- almost completed
 
-## 12/27-12/31
+## 12/27-12/31/2023
 * [HN thread](https://news.ycombinator.com/item?id=38781484) on Dwarkesh Patel's Substack article ['Will Scaling Work?'](https://www.dwarkeshpatel.com/p/will-scaling-work). For more notes, see a7/ht section. 
 
 ***
@@ -816,7 +816,7 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 	* Allow system software which provides virtual devices for Karabiner-Elements
 	* Grant System Preferences > Privacy and Security > Input Monitoring to Karabiner-Elements
 
-## 1/03
+## 1/03/2024
 * On minipro, transitioned Alacritty from alacritty.yml file to alacritty.toml file by running the `alacritty migrate` command. After that, Alacritty kept throwing warnings on start. To elimate the problem, i commented out and/or deleted the schemes and window opacity fields b/c they were used in \*.yml but not in \*.toml. Legacy versions are still saved in ~/.config/alacritty.  See also:
 	* [Issue #7000](https://github.com/alacritty/alacritty/pull/7000)
 	* This text `Versions before 0.13.0 used a YAML configuration file. Old YAML config files can be converted to TOML by running alacritty migrate. However, automatic migration drops all comments.` from [this page](https://wiki.archlinux.org/title/Alacritty#:~:text=Old%20YAML%20config%20files%20can,found%20at%20the%20project%27s%20homepage.)
@@ -830,14 +830,14 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 * 1/11 - completed GBC chap 7 regularization; moved onto chap 8 on optimization
 * 1/13, 1/20 - more on GBC chap 8 optimization
 
-## 1/07 Using Markdown-like syntax to create simple graphs
+## 1/07/2024 Using Markdown-like syntax to create simple graphs
 * [Pikchr](https://pikchr.org/home/doc/trunk/homepage.md) by the people behind SQLite. Created in 2020, to update 1980s PIC format.
 	* [Differences from PIC](https://pikchr.org/home/doc/trunk/doc/differences.md)
 	* [Jan, 2024 HN thread](https://news.ycombinator.com/item?id=38885094) and [Sept, 2023 HN thread](https://news.ycombinator.com/item?id=36847133)
 * [Mermaid](https://mermaid.js.org/intro/) is a JavaScript based diagramming and charting tool built by [Mermaid Chart](https://www.mermaidchart.com/pricing) for-profit company
 * [HN comment](https://news.ycombinator.com/item?id=24603608) comparing [Graphviz](https://graphviz.org/about/) which started in 2004 on Mac.
 
-## 1/17 Getting llm working with seymour
+## 1/17/2024 Getting llm working with seymour
 * Ignored setting up Jupyter Notebook from [this LangChain section](https://python.langchain.com/docs/get_started/quickstart#setup) which pointed to this [Jupyter install guide](https://jupyter.org/install)
 * Looking at OneNote notes from 4/02/2023 on setting up conda environments
 	1. See what mamba environments are available by typing `mamba info --envs`
@@ -873,7 +873,7 @@ Below tree was generated by typing the **tree** command from the parent **proj-1
 		* ```Traceback (most recent call last): File "/Users/jeffh/demo_files/protodev-llm/sndbx_lngchn/lng-simple.py", line 14, in <module> from dotenv import load_dotenv, find_dotenv```
 		* ```ModuleNotFoundError: No module named 'dotenv'```
 
-## 1/18 continuation. Additional python modules installed via Mamba
+## 1/18/2024 continuation. Additional python modules installed via Mamba
 * need to install `dotenv` python package. typed `mamba install -n langc -c conda-forge python-dotenv`
 	* this module helps find `.env` files for key-value pairs
 * need to install `panel` python package. typed `mamba install -n langc -c conda-forge panel`
@@ -951,27 +951,27 @@ AttributeError: st.session_state has no attribute "show_results". Did you forget
 * 1/21 - planned next GBC chapters
 * 1/24 - Work on mindscale/labs  
 
-## 1/24 More notes
+## 1/24/2024 More notes
 * [HN thread](https://news.ycombinator.com/item?id=39119835) about fast, Rust-based editor Zed going [open-source](https://zed.dev/blog/zed-is-now-open-source). Currently [macOS only](https://zed.dev/faq), on road-map to [support Linux](https://news.ycombinator.com/item?id=39120029) by 2025. 
 
-## 2/15
+## 2/15/2024
 * New generation of data apps using [Framework](https://observablehq.com/framework/) from [Observable](https://observablehq.com). [Blog post](https://news.ycombinator.com/item?id=39383386) and [HN thread](https://observablehq.com/blog/observable-2-0)
 * Began reading O'Reilly's [Unix Power Tools](https://www.amazon.com/Power-Tools-Third-Shelley-Powers/dp/0596003307). Feel like `ls | grep "search string"` works well. and doesn't even need any wildcards! to filter blog by date, etc.
 
-## 2/16
+## 2/16/2024
 * New generation of data apps using [Framework](https://observablehq.com/framework/) from [Observable](https://observablehq.com). [Blog post](https://news.ycombinator.com/item?id=39383386) and [HN thread](https://observablehq.com/blog/observable-2-0)
 
-## 2/20
+## 2/20/2024
 * InfoQ article on [Cloud-Computing in the Post-Serverless Era](https://www.infoq.com/articles/cloud-computing-post-serverless-trends/)
 * IEEE 2016 article on [The Surprising Story of the First Microprocessors](https://spectrum.ieee.org/the-surprising-story-of-the-first-microprocessors). Hint: It actually didn't start with the [Intel 4004](https://en.wikipedia.org/wiki/Intel_4004) in 1971.
 * [HN post](https://news.ycombinator.com/item?id=39147528) to a Medium article about 'Is Cloud the New Mainframe?'.
 * [HN thread](https://news.ycombinator.com/item?id=39197619) about Ben Thompson's Stratechery post on [Intel's Humbling](https://stratechery.com/2024/intels-humbling/)
 
-## 2/24
+## 2/24/2024
 * New course at Purdue University on [Semiconductor Fabrication 101](https://www.purdue.edu/newsroom/releases/2022/Q2/purdue-launches-nations-first-comprehensive-semiconductor-degrees-program.html) and [HN thread](https://news.ycombinator.com/item?id=39325659)
 * Brief history and tour of [C Compilers](https://www.deusinmachina.net/p/compiling-history-a-brief-tour-of) and earlier [history of C programming language](https://www.deusinmachina.net/p/compiling-history-a-brief-tour-of)
 
-## 3/18
+## 3/18/2024
 * [HN thread](https://news.ycombinator.com/item?id=39720388) about CMU's [CS251 course](https://www.cs251.com) on Great Ideas in Theoretical Computer Science.
 * Hugo Barra's long and detailed review and thoughts on AVP from the perspective of a previous head of FB/Meta's Oculus and VR projects. [Article](https://hugo.blog/2024/03/11/vision-pro/) and [HN thread](https://news.ycombinator.com/item?id=39711725).
 * Is the Internet Dying? [Ed Zitron's thoughts](https://www.wheresyoured.at/are-we-watching-the-internet-die/), [Cory Dransfeldt's blog](https://coryd.dev/posts/2024/the-internet-isnt-dying-its-changing/), and [HN thread](https://news.ycombinator.com/item?id=39684795)
