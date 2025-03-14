@@ -204,6 +204,10 @@ Here are the definitions for the specified items along with their equivalent dat
 
 * The directory structure has changed as of AP5. Now, blog posts are located within `HOME/src/data/blog/`. Experimental deletion of blog posts works fine
 
-***
-
-## 3/13
+## 3/14/2025
+* Content updates
+	* About Page
+	* Footer Social links
+	* Primary welcome screen where Mingalaba is said
+	* Turn off RSS
+	* H1 Name on top left
