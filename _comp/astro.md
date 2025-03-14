@@ -1,7 +1,7 @@
 ---
 title: Astro
 permalink: /astro/
-sitemap: true
+sitemap: false
 ---
 
 # 2024 Log on Astro and AstroPaper
