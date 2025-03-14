@@ -1,4 +1,3 @@
-
 ---
 title: Astro
 permalink: /astro/
