@@ -204,6 +204,9 @@ Here are the definitions for the specified items along with their equivalent dat
 
 * The directory structure has changed as of AP5. Now, blog posts are located within `HOME/src/data/blog/`. Experimental deletion of blog posts works fine
 
+* HELLO
+  
+***
 ## 3/14/2025
 * Content updates
 	* About Page
