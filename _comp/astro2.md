@@ -1,6 +1,6 @@
 ---
-title: a2
-permalink: /a2/
+title: astro2
+permalink: /astro2/
 sitemap: false
 ---
 
