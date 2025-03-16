@@ -17,6 +17,7 @@ sitemap: false
 
 ***
 
+
 ## 3/15/2025
 * Completed today
 	* Tested blog-generator.js file to create a new post
@@ -27,4 +28,6 @@ sitemap: false
 	* Change value of **SITE.title** to change name of site in top left corner.
 	* Tons of variables like default AUTHOR, WEBSITE (for deployed domain name), DESC (for seo description that shows up in Google SERP), title, ogImage, etc.
 * Fixed jeff hwang social links at bottom, including asking claude to generate a new IG.svg icon b/c AP5 uses hardcoded SVG files rather than the generated ones in AP4
-
+* Edited text for About page
+* Edited old `blog-template-generator.js` because it was using outdated CommonJS module system from AP4. For AstroPaper5, we use the ES6 module system (from ECMAScript 2015). Asked Claude to rebuild `blog-template-generator.js` using ES6 module system and it works.
+* Removed the *Edit Post* functionality that appears in every post in the layout file `PostDetails.astro` stored in `root/src/layouts/PostDetails.astro`.. 
