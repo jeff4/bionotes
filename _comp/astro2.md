@@ -5,13 +5,12 @@ sitemap: false
 ---
 
 ## 3/14/2025
-* Content updates
+* Content updates -- all completed by 3/15
 	* About Page
 	* Footer Social links
 	* Primary welcome screen where Mingalaba is said
 	* Turn off RSS
 	* H1 Name on top left
-* Done so far
 	* added `alias pp = 'pnpm run dev'`
 	* updated text of About page
 
@@ -23,6 +22,7 @@ sitemap: false
 	* Added `alias cd1m = `
 	* Added `alias cd1p = `
 	* Added `alias cd1sr = `
+	* Added `alias cd1l = `
 * Items to change in `root/src/config.ts`
 	* Change value of **SITE.title** to change name of site in top left corner.
 	* Tons of variables like default AUTHOR, WEBSITE (for deployed domain name), DESC (for seo description that shows up in Google SERP), title, ogImage, etc.
@@ -34,3 +34,11 @@ sitemap: false
 * Located in `root/src/layouts/PostDetails.astro`.
 * Removed the *Edit Post* functionality that appears at the top of every post by commenting out `<EditPost class../>`
 * Removed the *Share Links* functionality that appears at the bottom of every post by commenting out `<ShareLinks />` div section.
+
+***
+
+## 3/16/2025
+* Figure how to fix Favicon in browser window. Something simple like a J in a box
+* Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file.
+* Keep adding new favorite hamlet posts
+* Start processing of transitioning custom dns of `jeffhwang.me` from `a7` to `a1`.
