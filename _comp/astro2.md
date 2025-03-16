@@ -3,6 +3,14 @@ title: Astro 2
 permalink: /astro2/
 sitemap: false
 ---
+***
+
+## 3/12/2025
+* OK, minor updates to sw and docs in AstroPaper, latest version is [**5.0.1**](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1). Previous link goes to [5.0.1 release page](https://github.com/satnaing/astro-paper/releases/tag/v5.0.1).
+* After deleting previous version of `/a1-arm`, everything works as advertised, including running version 5.0.1. When one runs `pnpm run dev`, console says: **`@5.0.1 dev ~/demo_files/a1-arm`**
+* The directory structure has changed as of AP5. Now, blog posts are located within `HOME/src/data/blog/`. Experimental deletion of blog posts works fine
+
+***
 
 ## 3/14/2025
 * Content updates -- all completed by 3/15
@@ -42,3 +50,17 @@ sitemap: false
 * Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file.
 * Keep adding new favorite hamlet posts
 * Move  `jeffhwang.me` custom domain from `a7` to `a1`.
+
+***
+
+### After sleeping on it, decided to ask Claude about:
+* Do i need to regenerate my old blog posts or do they conform well to AP5? Steps:
+	* upload relevant templates, layouts, components
+	* show the new hamlet that was freshly generated
+	* compare with existing markdown from Sat Naing
+	* compare with old posts like old Stepfunction blog posts
+* IG and LinkedIn logos are different sizes. upload to claude:
+	* screenshot of footer
+	* `/src/components/Socials.astro`
+	* Sample SVGs from Icon library under `/src/assets/icons/`
+
