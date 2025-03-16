@@ -29,5 +29,8 @@ sitemap: false
 * Fixed jeff hwang social links at bottom, including asking claude to generate a new IG.svg icon b/c AP5 uses hardcoded SVG files rather than the generated ones in AP4
 * Edited text for About page
 * Edited old `blog-template-generator.js` because it was using outdated CommonJS module system from AP4. For AstroPaper5, we use the ES6 module system (from ECMAScript 2015). Asked Claude to rebuild `blog-template-generator.js` using ES6 module system and it works.
-* Removed the *Edit Post* functionality that appears in every post in the layout file `PostDetails.astro` stored in `root/src/layouts/PostDetails.astro`.
-* Removed share icons at the bottom of each post
+
+### Changes to 'PostDetails.astro' layout file
+* Located in `root/src/layouts/PostDetails.astro`.
+* Removed the *Edit Post* functionality that appears at the top of every post by commenting out `<EditPost class../>`
+* Removed the *Share Links* functionality that appears at the bottom of every post by commenting out `<ShareLinks />` div section.
