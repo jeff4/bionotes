@@ -17,7 +17,6 @@ sitemap: false
 
 ***
 
-
 ## 3/15/2025
 * Completed today
 	* Tested blog-generator.js file to create a new post
@@ -31,3 +30,4 @@ sitemap: false
 * Edited text for About page
 * Edited old `blog-template-generator.js` because it was using outdated CommonJS module system from AP4. For AstroPaper5, we use the ES6 module system (from ECMAScript 2015). Asked Claude to rebuild `blog-template-generator.js` using ES6 module system and it works.
 * Removed the *Edit Post* functionality that appears in every post in the layout file `PostDetails.astro` stored in `root/src/layouts/PostDetails.astro`.
+* Removed share icons at the bottom of each post
