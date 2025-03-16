@@ -41,4 +41,4 @@ sitemap: false
 * Figure how to fix Favicon in browser window. Something simple like a J in a box
 * Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file.
 * Keep adding new favorite hamlet posts
-* Start processing of transitioning custom dns of `jeffhwang.me` from `a7` to `a1`.
+* Move  `jeffhwang.me` custom domain from `a7` to `a1`.
