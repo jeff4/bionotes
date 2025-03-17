@@ -51,6 +51,8 @@ sitemap: false
 * For some reason, `Suggest changes` widget shows up on mobile viewport but not desktop viewport. Need to examine CSS to figure out why that is happening.
 * Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file.
 * Move  `jeffhwang.me` custom domain from `a7` to `a1`.
+* Fix size of new IG logo/icon at bottom. See next notes.
+
 
 ***
 
