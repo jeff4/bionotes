@@ -63,4 +63,6 @@ sitemap: false
 	* screenshot of footer
 	* `/src/components/Socials.astro`
 	* Sample SVGs from Icon library under `/src/assets/icons/`
+* Edits to `PostDetails.astro`. Changed copy from "Next Post / Previous Post" to JH preferred "Newer Post / Older Post" On lines **142** and **165**. Changes the text that appears at the bottom of the page.
+
 
