@@ -45,10 +45,11 @@ sitemap: false
 
 ***
 
+
 ## 3/16/2025
 * Figure how to fix Favicon in browser window. Something simple like a J in a box
+* For some reason, `Suggest changes` widget shows up on mobile viewport but not desktop viewport. Need to examine CSS to figure out why that is happening.
 * Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file.
-* Keep adding new favorite hamlet posts
 * Move  `jeffhwang.me` custom domain from `a7` to `a1`.
 
 ***
@@ -64,5 +65,4 @@ sitemap: false
 	* `/src/components/Socials.astro`
 	* Sample SVGs from Icon library under `/src/assets/icons/`
 * Edits to `PostDetails.astro`. Changed copy from "Next Post / Previous Post" to JH preferred "Newer Post / Older Post" On lines **142** and **165**. Changes the text that appears at the bottom of the page.
-
 
