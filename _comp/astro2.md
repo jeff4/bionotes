@@ -45,11 +45,10 @@ sitemap: false
 
 ***
 
-
 ## 3/16/2025
+* <del> Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file. </del> (This was fixed on 3/17.) 
 * Figure how to fix Favicon in browser window. Something simple like a J in a box
 * For some reason, `Suggest changes` widget shows up on mobile viewport but not desktop viewport. Need to examine CSS to figure out why that is happening.
-* Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file.
 * Move  `jeffhwang.me` custom domain from `a7` to `a1`.
 * Fix size of new IG logo/icon at bottom. See next notes.
 
