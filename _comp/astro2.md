@@ -70,7 +70,10 @@ sitemap: false
  
 ***
 
+
+
 ## 3/17/2025
 * Used [this Claude thread](https://claude.ai/share/a2e4e03d-fcfa-4125-8e58-828e51c16c4c) to fix the left margin of the "Newer/Older" post links to be flush left in both desktop and mobile versions. Modified `root/src/layouts/PostDetails.astro` file to do this. We can examine old v1 through v5 versions of this `PostDetails.astro` file stored in Dropbox within the `_comp/` file.
+* Per [this Claude thread](https://claude.ai/share/123c4a89-dc64-4f6c-8030-3ed7a5746584), I commented out the `import EditPost` as well as the 2 references to it so that the "Suggest Edit" widget does not show up in either desktop or mobile viewports.
 
 
