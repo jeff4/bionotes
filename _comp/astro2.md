@@ -45,13 +45,12 @@ sitemap: false
 
 ***
 
+
 ## 3/16/2025
 * <del> Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file. </del> (This was fixed on 3/17.) 
-* Figure how to fix Favicon in browser window. Something simple like a J in a box
-* For some reason, `Suggest changes` widget shows up on mobile viewport but not desktop viewport. Need to examine CSS to figure out why that is happening.
-* Move  `jeffhwang.me` custom domain from `a7` to `a1`.
+* <del>For some reason, `Suggest changes` widget shows up on mobile viewport but not desktop viewport. Need to examine CSS to figure out why that is happening.</del> (This was fixed on 3/17.) 
 * Fix size of new IG logo/icon at bottom. See next notes.
-
+* Figure how to fix Favicon in browser window. Something simple like a J in a box
 
 ***
 
@@ -67,13 +66,11 @@ sitemap: false
 	* Sample SVGs from Icon library under `/src/assets/icons/`
 * Edits to `PostDetails.astro`. Changed copy from "Next Post / Previous Post" to JH preferred "Newer Post / Older Post" On lines **142** and **165**. Changes the text that appears at the bottom of the page.
 
- 
+
 ***
-
-
 
 ## 3/17/2025
 * Used [this Claude thread](https://claude.ai/share/a2e4e03d-fcfa-4125-8e58-828e51c16c4c) to fix the left margin of the "Newer/Older" post links to be flush left in both desktop and mobile versions. Modified `root/src/layouts/PostDetails.astro` file to do this. We can examine old v1 through v5 versions of this `PostDetails.astro` file stored in Dropbox within the `_comp/` file.
 * Per [this Claude thread](https://claude.ai/share/123c4a89-dc64-4f6c-8030-3ed7a5746584), I commented out the `import EditPost` as well as the 2 references to it so that the "Suggest Edit" widget does not show up in either desktop or mobile viewports.
-
+* Move  `jeffhwang.me` custom domain from `a7` to `a1`. Completed. See [these Claude instructions](https://claude.ai/share/d77e3d64-84ee-446f-9a4c-e9af62e9ec4b). Very quick and easy and showed up on CDN within seconds. Note: need to remove custom domain from old app before applying it to the new app.
 
