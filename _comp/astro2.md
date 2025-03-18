@@ -68,3 +68,10 @@ sitemap: false
 	* Sample SVGs from Icon library under `/src/assets/icons/`
 * Edits to `PostDetails.astro`. Changed copy from "Next Post / Previous Post" to JH preferred "Newer Post / Older Post" On lines **142** and **165**. Changes the text that appears at the bottom of the page.
 
+ 
+***
+
+## 3/17/2025
+* Used [this Claude thread](https://claude.ai/share/a2e4e03d-fcfa-4125-8e58-828e51c16c4c) to fix the left margin of the "Newer/Older" post links to be flush left in both desktop and mobile versions. Modified `root/src/layouts/PostDetails.astro` file to do this. We can examine old v1 through v5 versions of this `PostDetails.astro` file stored in Dropbox within the `_comp/` file.
+
+
