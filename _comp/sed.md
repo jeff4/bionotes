@@ -361,3 +361,17 @@ Also, whitespace is mostly ignored. So you can format all the expressions in a s
 	```
 	
 	* Using `\v` at the beginning of the pattern makes Vim treat most characters as literal, reducing the need for excessive escaping.
+
+***
+
+## 3/19/2025
+* Consider using `fd`, this [replacement for find](https://github.com/sharkdp/fd) which is 'fast, user-friendly alternative to Unix find'. [HN thread](https://news.ycombinator.com/item?id=43410692). From their github readme:
+	* Intuitive syntax: `fd PATTERN` instead of `find -iname '*PATTERN*'`.
+	* Regular expression (default) and glob-based patterns.
+	* Very fast due to parallelized directory traversal.
+	* Uses colors to highlight different file types (same as `ls`).
+	* Supports parallel command execution
+	* Smart case: the search is case-insensitive by default. It switches to case-sensitive if the pattern contains an uppercase character.
+	* Ignores hidden directories and files, by default.
+	* Ignores patterns from your `.gitignore`, by default.
+	* The command name is 50% shorter* than find :-).
