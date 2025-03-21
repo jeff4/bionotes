@@ -74,8 +74,8 @@ sitemap: false
 * Per [this Claude thread](https://claude.ai/share/123c4a89-dc64-4f6c-8030-3ed7a5746584), I commented out the `import EditPost` as well as the 2 references to it so that the "Suggest Edit" widget does not show up in either desktop or mobile viewports.
 * Move  `jeffhwang.me` custom domain from `a7` to `a1`. Completed. See [these Claude instructions](https://claude.ai/share/d77e3d64-84ee-446f-9a4c-e9af62e9ec4b). Very quick and easy and showed up on CDN within seconds. Note: need to remove custom domain from old app before applying it to the new app.
 
-
 ***
 
 ## 3/20/2025
-* Need to change default color to dark mode somehow
+* Need to change default color to dark mode somehow. See [main config post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/) and [theme color post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
+
