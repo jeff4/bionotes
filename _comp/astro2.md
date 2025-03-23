@@ -76,6 +76,6 @@ sitemap: false
 
 ***
 
-## 3/21/2025
+## 3/22/2025
 * Need to change default color to dark mode somehow. See [main config post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/) and [theme color post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
 
