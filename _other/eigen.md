@@ -126,4 +126,4 @@ permalink: /eigen/
 
 ## 2025
 * 1/10/2025 - Late 2024 [HN post](https://news.ycombinator.com/item?id=42289913) about this [2007 article](https://deadreckonings.com/2007/12/07/heavisides-operator-calculus/) about Heaviside ignoring the objections of contemporary mathematicians and using calc derivatives and calc integrals in the form of **operators** which can be manipulated algebriacally.
-
+* 3/23/2025 - [PDF](https://math.franklin.uga.edu/sites/default/files/users/user317/ShifrinDiffGeo.pdf) published October 2024 of intro textbook to *Differential Geometry: A First Course in Curves and Surfaces* by Prof. Theodore Shifrin from University of Georgia. Found from this [HN thread](https://news.ycombinator.com/item?id=43445614)
