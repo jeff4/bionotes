@@ -3,6 +3,125 @@ title: Astro 2
 permalink: /astro2/
 sitemap: false
 ---
+
+# 2024 Log on Astro and AstroPaper
+
+### 6/19/2024
+* See dialog in ChatGPT with suggested Astro code.
+
+### 1/12/2025 
+* Edits to original content and table created 6/20/204
+* See this Claude Sonnet 3.5 dialogue for updated table adding Scheme and Haskell
+* Created dev.to account and found this April, 2024 [article](https://dev.to/snikidev/astrojs-as-an-alternative-to-nextjs-pushing-the-limits-30ga) by Nikita Kakuev on how the Astro approach (if not necessarily the Astro framework) is the future. "The future is simple, vanilla JS because simplicity always wins."
+
+
+***
+
+# AstroPaper 2025 Log
+## 1/12/2025
+* Began trying to install v4.0 version of AstroPaper. Install instructions from AstroPaper 3 [blog post](https://astro-paper.pages.dev/posts/astro-paper-v3/)
+* Cmd line instructions are on [main AstroPaper github page](https://github.com/satnaing/astro-paper?tab=readme-ov-file) in the [*Running Locally* section](https://github.com/satnaing/astro-paper?tab=readme-ov-file#-running-locally)j
+* Before I could run the astro install command, I had to upgrade node via homebrew, then upgrade npm. 
+	* Also, since i ran `brew upgrade`, my **Alacritty** terminal was also updated so i had to migrate that. See OneNote for detailed notes
+* Hmm, per [Issue #435](https://github.com/satnaing/astro-paper/issues/435), as of Jan 12, 2025, AstroPaper is still pinned to Astro version 4.16.3. And we are requesting that install can be updated to use Astro 5.1. So maybe I'll just hold off on the Astro/AstroPaper migration for now until Astro 5 is supported by AstroPaper/SatNaing.
+
+## 1/16/2025
+* Still waiting for Sat Naing to update AstroPaper to fully support Astro v5.
+
+## 1/21/2025
+* Still no update on [Issue #435](https://github.com/satnaing/astro-paper/issues/435)
+
+***
+
+## 2/12/2025
+* Notes on JS program (with maybe python and haskell implementations) to auto-format new blog posts.
+
+***
+
+# 3/11/2025
+* OK, Sat Naing finally pushed updates for AstroPaper 5, which includes support for Astro v5 and Tailwind v4 out of the box.
+* **Sat's** [**main blog post on AstroPaper 5**](https://astro-paper.pages.dev/posts/astro-paper-v5/).
+* See also these general AstroPaper blog posts from the past that have all been updated for AP5 as of March 8, 2025:
+	1. [How to configure blog posts](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/) 
+	1. [How to configure sitewide variables and visual theme](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
+
+## Machine checklist
+* champ-1524 has everything up to and including updated .bash_profile
+1. delete and recreate `/a1/` directory
+1. next, create new github repo
+1. next, pull from new github repo to minipro23
+* minipro23 has everything up to and excluding `pnpm create astro@latest --template satnaing/astro-paper`. And in fact, we won't use that because we will populate by downloading from github
+
+## General notes:
+* Have to install new package manager [pnpm](https://github.com/pnpm/pnpm). Can read this [blog post](https://pnpm.io/blog/2020/05/27/flat-node-modules-is-not-the-only-way) for more on pnpm.
+* Instructions from main [AstroPaper GitHub page](https://github.com/satnaing/astro-paper?tab=readme-ov-file#-running-locally)
+
+#### pnpm command
+`pnpm create astro@latest --template satnaing/astro-paper`
+
+#### npm command
+`npm create astro@latest -- --template satnaing/astro-paper`
+
+## grep command within vim to update from cd4 shortcutrs to cd1 shortcuts (and more importantly, switch from Dropbox to local directory)
+* `:24,36s~jeffh\/Dropbox\/proj-4\/a4-paper-intel~jeffh/demo_files/a1-arm/~gc`
+
+***
+
+### I. Preliminary Steps
+1. Update/upgrade homebrew to make sure we are on the latest
+1. Use homebrew to install pnpm with this command `brew install pnpm`
+	* per `pnpm --version`, we are running version `10.6.2`
+1. Create new directory locally in `~/demo_files/`, **not** in Dropbox. Let's call it `a1.-arm` (Will eventually delete a3 and a4).
+
+
+### II. Install Astro
+1. Run **pnpm create astro@latest --template satnaing/astro-paper** 
+	* Make sure when it asks you where to create home directory, using `/.` to load it all into current directory.
+	* Enable TypeScript (y)
+	* Allow installer to install dependencies
+1. `pnpm run dev` won't work yet. You need to either:
+	1. **Option 1:** install astro using `pnpm add astro` OR
+	1. **Option 2:** invoke first run directly using `npx astro dev`. This command will say that we need to install `astro@5.4.3, OK to proceed (y/n)`. 
+	1. Notes:
+		* I chose **Option 1** and it's working now
+		* On day 2, after completely deleting the `/a1-arm` directory, i did *not* need to install astro. I think this means that the astro install only has to happen once per machine?
+1. Change `.bash_profile` so that we have a new shortcut to execute. instead of `np` as an alias for `npm run dev`, etc., let's use **pp** as an alias for `pnpm run dev` whih starts the local server on port ...
+
+### III. GitHub steps
+1. Verify that i have an SSH connection to github with these [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection). Just need to use terminal to type `ssh -T git@github.com`. And reply should be `Hi xxxx! You've successfully authenticated, but GitHub does not provide shell access.`
+1. Modify `.gitignore` file so that it ignores `.DS_Store`, `*.swp` files and other temporary vim files. Specifically, type in:
+```
+# Ignore temporary vim files
+*.swp
+*.swo
+```
+1. Create a new repo at GitHub. Just go to web interface using [these instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
+	* Do *NOT* create a readme or .gitignore file because they were already created on local system
+	* Initiallly chose private visibility
+	* Note, see also dialogue I had with Claude AI on 3/12/2025 for github instructions.
+1. After repository is created, click green **Code** button on upper left. Under "Clone", it will have https, ssh, and GitHub CLI options. Choose `ssh` and copy that string, e.g, `git@github.com:jeff4/a1.git`.
+1. Navigate to local directory, e.g, ~/demo-files/a1-arm`. 
+1. Assuming SSH has been set up already, you can just type this single command to connect the local repo to the remote repo: `:git remote add origin git@github.com:jeff4/a1.git`
+1. To verify that the connection is good, type: `git remote -v`
+1. If your first push using `git push -u origin main` is rejected, that is probably because there is residue like an auto-generated README etc.
+	* In that case, force all changes to the remote github using `git push -f origin main`
+
+### IV. Netlify steps
+1. Connect repo with Netlify so that this can run as vanilla as `https://jeffhwang-a1.netlify.app/`
+1. Of the three options available at Netlify, I chose [option 1](https://docs.netlify.com/welcome/add-new-site/#import-from-an-existing-repository), to deploy a site based on an existing git repository.
+1. Very simple. Just need to give Netlify access to GitHub credentials, and it all goes live very easily. Only issue is that not all GH repos automatically show up in pick-list on the Netlify side. So you need to use the Netlify module within GH.com to select other repos and then at that point, `a1` comes up as available again. It's all live now
+
+
+### V. Manual changes
+1. Change about page
+1. remove all old AstroPaper posts
+1. Experiment with having a few of the old posts ported over
+1. Move all posts over
+1. Change the social links
+1. change DNS / custom domain over for `jeffhwang.me` over from `a4-intel` back to `a1`.
+1. set up local repo on minipro-23
+
+
 ***
 
 ## 3/12/2025
@@ -45,7 +164,6 @@ sitemap: false
 
 ***
 
-
 ## 3/16/2025
 * <del> Figure out what's wrong with the spacing of the newer post / older post functionality at the bottom of the `PostDetail.astro` layout file. </del> (This was fixed on 3/17.) 
 * <del>For some reason, `Suggest changes` widget shows up on mobile viewport but not desktop viewport. Need to examine CSS to figure out why that is happening.</del> (This was fixed on 3/17.) 
@@ -76,7 +194,6 @@ sitemap: false
 
 ***
 
-## 3/26/2025
+## 3/20/2025
 * Need to change default color to dark mode somehow. See [main config post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/) and [theme color post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-* One week ago on Monday 3/17, officially switched jh.me domain over to a1.
-
+* Added more Hamlet posts.
