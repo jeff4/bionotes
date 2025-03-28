@@ -336,11 +336,13 @@ vim.opt.relativenumber = true
 * Vim / NeoVim plugin by [Georgi Gerganov](https://ggerganov.com), creator of llama.cpp, whisper.cpp, and many other projects. [HN thread](https://news.ycombinator.com/item?id=42806328), [legacy about page](https://github.com/ggml-org/llama.vim) which has helpful intro. [Latest llama.vim page](https://github.com/ggml-org/llama.vim)
 	* [December 2024 paper](https://arxiv.org/abs/2412.16589) explaining code completion, benchmarking Fill-In-the-Middle (FIM). FIM gathers context both before and after where the cursor is, in contrast to older methods that only have context of the stuff before the cursor (aka "left to right" prefix-only completion). 
 
-## 2/08/2025
-* vim browser links below
+## 2/05/2025
+* vim browser links
 * I've started playing around with vim motions in the browser, esp. for macOS. First step has been installing the [vimari](https://televator.net/vimari/) Safari extension. I'll also try the [vimb](https://fanglingsu.github.io/vimb/). Both of the above use [WebKit 2](https://en.wikipedia.org/wiki/WebKit#WebKit2).
 * I'll also check the Chrome extension [Vimium](https://vimium.github.io) on Chrome and Firefox. And probably install [Qutebrowser](https://www.qutebrowser.org) to see how I like it. I found the list of *Similar Projects* on the Qutebrowser site to be very helpful.
 * These explorations were encouraged by this [vim broswer blog post from 2017](https://blog.al4.co.nz/2017/10/vimperator-vimium-and-the-switch-to-qutebrowser/) and more recently by ['A mouseless tale: trying for a keyboard-driven desktop'](https://lwn.net/Articles/1005332/) with related [HN thread](https://news.ycombinator.com/item?id=42884099).
 
-
-## 3/14/2025 test
+## 3/28/2025
+* ['The efficiency of vim'](https://bencornia.com/blog/the-efficiency-of-vim) from 2/24/2025. [HN thread](https://news.ycombinator.com/item?id=43168781).
+* Small [HN comment](https://news.ycombinator.com/item?id=43196196) leads to this 2/11/2025 post on [Composiphrase](https://www.willghatch.net/blog/text-editing/composiphrase_composable-editing-language-like-vim-but-moreso/)
+	* About building a larger composable language that builds on vim text objects
