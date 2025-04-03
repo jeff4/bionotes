@@ -194,6 +194,6 @@ sitemap: false
 
 ***
 
-## 4/01/2025
+## 4/02/2025
 * Need to change default color to dark mode somehow. See [main config post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/) and [theme color post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
 * Added more Hamlet posts.
