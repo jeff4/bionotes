@@ -194,6 +194,13 @@ sitemap: false
 
 ***
 
-## 4/02/2025
+## 3/20/2025
 * Need to change default color to dark mode somehow. See [main config post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/) and [theme color post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
 * Added more Hamlet posts.
+
+***
+
+## 4/02/2025
+* Disabled `jeffhwang-a4.netlify.app` in the Netlify portal so that server is no longer live on the web.
+* Archived the GitHub repo `jeff4/a4-paper`.
+* Moved legacy Intel chip version of AstroPaper site from local storage on Dropbox from `~/Dropbox/proj-4/a4-paper-intel/` to local storage on iMac at `~/Documents/jh_misc/`
