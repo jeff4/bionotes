@@ -183,3 +183,9 @@ Here are the definitions for the specified items along with their equivalent dat
 ```
 
 * The directory structure has changed as of AP5. Now, blog posts are located within `HOME/src/data/blog/`. Experimental deletion of blog posts works fine
+
+
+***
+
+4/04/2025
+* Now there are problems with `/astro2`. Something's really wrong with the code on those pages, need to debug.
