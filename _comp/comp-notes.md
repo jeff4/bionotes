@@ -187,5 +187,8 @@ Here are the definitions for the specified items along with their equivalent dat
 
 ***
 
-4/07/2025
+## 4/07/2025
 * Now there are problems with `/astro2`. Something's really wrong with the code on those pages, need to debug.
+
+## 4/09
+* Interesting [HN thread](https://news.ycombinator.com/item?id=40841980) on history of Yahoo Pipes. Esp. this Don Hopkins [comment](https://news.ycombinator.com/item?id=40843426) abstract discussion on nodes, edges, etc. See also the 'category theory' reply to [this comment](https://news.ycombinator.com/item?id=40842388)
