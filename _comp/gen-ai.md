@@ -370,3 +370,11 @@ G
 	1. Distillation
 * Also has commentary on DeepSeek R1 in the same post.
 
+## 09 April 2025
+* Google announces (potential competitor to [MCP - Model Context Protocol](https://modelcontextprotocol.io/introduction) from Anthropic). Something called [agent2agent - a2a protocol](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
+	* [HN thread](https://news.ycombinator.com/item?id=43631381)
+	* [HN comment](https://news.ycombinator.com/item?id=43638107): 
+		* '*A key difference between MCP and A2A that is apparent to me after building with MCP and now reading the material on A2A.*
+		* '*MCP is solving specific problems people have in practice today. LLMs need access to data that they weren't trained on, but that's really hard because there's a millions different ways you could RAG something. So MCP defines a standard by which LLMs can call APIs through clients. (and more).*
+		* '*A2A solves a marketing problem that Google is chasing with technology partners.*
+		* '*I think I can safely say which one will still be around in 6 months, and it's not the one whose contributors all work for the same company.*'
