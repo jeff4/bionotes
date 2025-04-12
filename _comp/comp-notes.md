@@ -1036,5 +1036,4 @@ AttributeError: st.session_state has no attribute "show_results". Did you forget
 * to search for the pattern of a filename in the current directory, use the `-f` flag for `ls` per [this documentation](https://www.ibm.com/docs/de/power6?topic=commands-ls-command) which suppresses the `-l` and other flags. So this is a good way of going `ls -f | grep uffizi`. Note that no wildcard `*` is needed when using this construct.
 
 ## 4/10/2025
-* Restored from Dropbox backup
-* more
+* Restored from Dropbox backup b/c of accidental cut and paste problem with `/astro`
