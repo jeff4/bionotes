@@ -204,3 +204,4 @@ sitemap: false
 * Disabled `jeffhwang-a4.netlify.app` in the Netlify portal so that server is no longer live on the web.
 * Archived the GitHub repo `jeff4/a4-paper`.
 * Moved legacy Intel chip version of AstroPaper site from local storage on Dropbox from `~/Dropbox/proj-4/a4-paper-intel/` to local storage on iMac at `~/Documents/jh_misc/`
+* 4/13/2025
