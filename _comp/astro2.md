@@ -209,3 +209,4 @@ sitemap: false
 
 ## 4/13/2025
 * interesting. At GitHub, turned both `a1` and `a7` into private visibility. This means that no one can see the `git push` changes in the public repo histories. However, Netlify is still able to build these apps.
+* Note: you *cannot* turn bionotes.org into a private repo b/c it publishes using GitHub pages.  And GH Pages requires this to be a public repo.
